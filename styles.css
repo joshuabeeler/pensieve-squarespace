@@ -64,12 +64,12 @@ main {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 18px 0;
 }
 
 .navbar img {
-  width: 150px;
+  width: 120px;
 }
 
 .nav-links {
@@ -78,6 +78,7 @@ main {
   font-size: 14px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  margin-left: 18px;
 }
 
 .nav-links a {
@@ -426,6 +427,7 @@ main {
 
   .nav-links {
     justify-content: center;
+    margin-left: 0;
   }
 
   .footer-grid {
