@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 :root {
   color-scheme: light;
   --bg: #f7f3ee;
@@ -8,10 +10,15 @@
   --accent-dark: #1f4f42;
   --card: #ffffff;
   --shadow: 0 18px 45px rgba(20, 16, 12, 0.12);
+  --heading-font: "Noto Sans", "Poppins", sans-serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+h1, h3 {
+  font-family: var(--heading-font);
 }
 
 body {
