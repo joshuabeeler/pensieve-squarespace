@@ -134,6 +134,19 @@ main {
   width: 190px;
 }
 
+.hero-media-card {
+  background: var(--card);
+  padding: 28px;
+  border-radius: 26px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero-media-card img {
+  display: block;
+  width: 100%;
+}
+
 .section {
   padding: 64px 0;
 }
