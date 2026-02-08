@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
   color-scheme: light;
@@ -10,20 +10,20 @@
   --accent-dark: #1f4f42;
   --card: #ffffff;
   --shadow: 0 18px 45px rgba(20, 16, 12, 0.12);
-  --heading-font: "Noto Sans", "Poppins", sans-serif;
+  --heading-font: "Inter", sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
-h1, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
 }
 
 body {
   margin: 0;
-  font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
+  font-family: "Segoe UI", Tahoma, sans-serif;
   color: var(--ink);
   background: #ffffff;
   line-height: 1.6;
@@ -87,7 +87,7 @@ main {
 
 .nav-links a[aria-current="page"] {
   color: var(--ink);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .hero {
@@ -110,7 +110,7 @@ main {
 
 .hero h3 {
   font-size: clamp(1.2rem, 2vw, 1.6rem);
-  font-weight: 500;
+  font-weight: 400;
   color: var(--muted);
   margin: 0 0 18px;
 }
@@ -300,7 +300,7 @@ main {
 }
 
 .info-card .meta {
-  font-weight: 600;
+  font-weight: 400;
   color: var(--accent);
 }
 
