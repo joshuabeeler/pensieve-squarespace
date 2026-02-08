@@ -6,8 +6,8 @@
   --bg-alt: #efe6dc;
   --ink: #1b1a17;
   --muted: #5c5a55;
-  --accent: #2a6c5a;
-  --accent-dark: #1f4f42;
+  --accent: #1b5fd1;
+  --accent-dark: #1548a3;
   --card: #ffffff;
   --shadow: 0 18px 45px rgba(20, 16, 12, 0.12);
   --heading-font: "Inter", sans-serif;
@@ -341,7 +341,7 @@ main {
 
 .info-card .meta {
   font-weight: 400;
-  color: var(--accent);
+  color: var(--ink);
 }
 
 .pricing-table {
