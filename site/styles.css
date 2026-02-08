@@ -101,6 +101,10 @@ main {
   align-items: center;
 }
 
+.hero-copy {
+  align-self: start;
+}
+
 .hero h1,
 .hero h2 {
   font-size: clamp(2.3rem, 3vw, 3.2rem);
@@ -368,6 +372,10 @@ main {
   display: grid;
   grid-template-columns: 2fr repeat(2, 1fr);
   gap: 28px;
+}
+
+.footer-col-top {
+  align-self: start;
 }
 
 .footer h5 {
