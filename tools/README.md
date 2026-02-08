@@ -16,3 +16,20 @@ For development with automatic reload:
 ```bash
 npm run dev
 ```
+
+Publish files listed in `publish.yaml` to FTP:
+
+1. Create a `.env` in `tools/` with `FTP_HOST`, `FTP_USER`, `FTP_PASS`, and optional `FTP_BASE`.
+2. Create `publish.yaml` listing files to upload, e.g.:
+
+```yaml
+files:
+	- ../index.html
+	- ../styles.css
+```
+
+Run:
+
+```bash
+npm run publish
+```
