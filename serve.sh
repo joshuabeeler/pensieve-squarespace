@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+cd "$(dirname "$0")/site"
+
 # Simple local dev server for static files with no-cache headers
 python3 - <<'PY'
 import http.server
@@ -13,7 +15,7 @@ class NoCacheHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header("Expires", "0")
         super().end_headers()
 
-with socketserver.TCPServer(("", 8000), NoCacheHandler) as httpd:
-    print("Serving at http://localhost:8000")
+with socketserver.TCPServer(("", 9000), NoCacheHandler) as httpd:
+    print("Serving at http://localhost:9000")
     httpd.serve_forever()
 PY
